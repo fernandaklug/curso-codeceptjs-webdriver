@@ -1,0 +1,27 @@
+{
+  "name": "automacao-codecept-js-web",
+  "version": "1.0.0",
+  "description": "Projeto de automação de testes para web com webdriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernanda Chechetto",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "@types/node": "^18.7.14",
+    "@wdio/selenium-standalone-service": "^7.23.0",
+    "codeceptjs": "^3.3.5",
+    "codeceptjs-webdriverio": "^1.1.0",
+    "faker": "^6.6.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2",
+    "webdriverio": "^7.23.0"
+  },
+  "dependencies": {
+    "gerador-validador-cpf": "^5.0.2",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3"
+  }
+}
